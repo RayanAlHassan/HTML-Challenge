@@ -1,0 +1,146 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #d8caab;
+    width: 80%;
+    margin: 20px auto;
+}
+main{
+  display: flex;
+  color:   #6f432a;
+}
+
+.main--head{
+    height: 400px; 
+    color: #d8caab;
+  
+}
+img{
+    width: 100%;
+    height: 80%;
+    margin: 10px auto;
+    position: relative;
+}
+.title{
+    position: absolute;
+    color: #ac7510;
+    top: 161px;
+    right: 632px;
+    font-size: 34px;
+}
+.slogan{
+    position: absolute;
+    color: #ac7510;
+    top: 221px;
+    right: 600px;
+    line-height: 1.5;
+    font-size: 15px;
+
+}
+
+nav{
+    height: 10%;
+    background-color: #ac7510;
+
+  }
+
+.ul--nav{
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+    justify-items: center;
+    align-items: center;
+}
+.separator {
+    width: 2px;
+    height: 40px;
+    background-color: #d8caab;
+    margin: 0 10px;
+  }
+  .main--menu {
+    /* width: 177px;
+    height: 250px; */
+    padding: 19px;
+    /* background-color: #c9bca0; */
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+  }
+  .main--menu li::marker {
+   content: "\25A0";   /* make rect black li */
+   margin-right: 5px;
+    color: #ac7510;; /* Change to your desired color */
+  }
+
+.article--title , .sec2--title1{
+  color: #ac7510;
+  padding: 9px;
+  font-size: 24px;
+  border-bottom: 1px solid #ac7510;
+  }
+  .title1--menu , .sec2--titles{
+    border: transparent;
+  }
+  a{
+    text-align: center;
+    color:  #ac7510;
+    list-style-type: disc;
+    margin: 20px;
+  }
+.article--container {
+  
+    display: flex;
+   flex-direction: column;
+    justify-content: space-between;
+    
+  }
+  
+  .block{
+    width: 177px;
+    margin-top: 28px;
+  }
+.p1--block{
+
+    margin-top: 20px;
+  margin-bottom: 20px;
+}
+.subsc{
+  width: 40%;
+  margin-right: 10px;
+  margin-top: 50px;
+}
+.sec2{
+  height: auto;
+  margin-left: 76px;
+}
+button{
+  color: #6f432a;
+  background-color: beige;
+  width: 100px;
+  height: 30px;
+  margin-top: 20px;
+}
+.subs-flex{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.subs-flex::after{
+  content: "";
+  position: absolute;
+  border: 1px solid #ac7510;
+  top: 63px;
+  left: 628px;
+  height: 90%;
+}
+
+footer{
+  border-top: 2px solid #ac7510 ;
+  margin: 20px auto;
+  padding: 20px;
+  text-align: center;
+}
